@@ -1,0 +1,82 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #3a346e;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.header .nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+.section {
+    padding: 4rem 1rem;
+    background-color: #f4f4f4;
+}
+
+.about {
+    background-color: #eee;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Project Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 30fr;
+    gap: 1rem;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+}
+
+/* Button Style */
+.btn {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3a346e;
+    color: #fff;
+}
+
+/* Responsive Styles */
